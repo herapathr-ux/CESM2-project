@@ -15,6 +15,8 @@
 
 This will download new .nc files covering averages that can be recalled for reproducability.
 
-- .nc files supplied contain 1920-1940 'baseline' subtracted from 3 21 year averages per variable, as well as seasonal components (from code supplied, run already). Can be input to produce figures.
+- .nc files supplied contain 1920-1940 'baseline' subtracted from 3 21 year averages per variable, as well as seasonal components (from code supplied, run already). Can be input to produce figures (also provided).
 
 - Note: AAER runs contains 20 ensemble members, xAER 10 members, LE 20 members, GHG 15 members.
+
+- Single forcing/large ensemble data available from https://www.cesm.ucar.edu/working-groups/climate/simulations/cesm2-single-forcing-le
