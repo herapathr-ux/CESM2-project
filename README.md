@@ -1,7 +1,7 @@
 # CESM2-project
-- seasonality - avoids collapsing of time dimension via `average_time=False`
+- seasonality.ipynb - avoids collapsing of time dimension via `average_time=False`
 
-- take3 - original draft for plotting 21 year ensemble mean anomalies of sea level pressure (PSL) and 2m reference height temperature (TREFHT) 40-90N as a result of progression of anthropogenic aerosol forcing only (AAER), progression of greenhouse gas forcing only (GHG) and all forcings evolving (LE). Aim is to plot correlation (nonlinearity) in the signal between aerosol and greenhouse gas progression by subtracting 'all but' aerosol forcing (xAER) from LE, then subtracting AAER from this.
+- take3.ipynb - original draft for plotting 21 year ensemble mean anomalies of sea level pressure (PSL) and 2m reference height temperature (TREFHT) 40-90N as a result of progression of anthropogenic aerosol forcing only (AAER), progression of greenhouse gas forcing only (GHG) and all forcings evolving (LE). Aim is to plot correlation (nonlinearity) in the signal between aerosol and greenhouse gas progression by subtracting 'all but' aerosol forcing (xAER) from LE, then subtracting AAER from this.
 
 - If running from scratch, both scripts require .nc files covering AAER, xAER, LE, GHG forcings on both PSL and TREFHT variables from notable time periods:
 
